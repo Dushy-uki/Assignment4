@@ -1,0 +1,45 @@
+*{
+    width: screen;
+}
+
+.nav-item1{
+    margin-left: 900px;
+   
+}
+.navbar-brand{
+    margin-left: 55px;
+}
+.nav-itemget{
+    background-color: rgb(255, 170, 60);
+    border-radius: 30px;
+}
+.sec2{
+    background-color: rgb(238, 230, 219);
+    padding: 100px;
+    display: flex;
+    width: 100%;
+}
+
+.amigo{
+    margin-top: 90px;
+    margin-left: 10%;
+}
+.image{
+    margin-left: 15%;
+}
+.work{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.sec3{
+    display: flex;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.table{
+    margin-left: 50%;
+    display: flex;
+   
+}
