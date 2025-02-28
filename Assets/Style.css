@@ -4,11 +4,11 @@
 }
 
 .nav-item1{
-    margin-left: 900px;
+    margin-left: 100px;
    
 }
 .navbar-brand{
-    margin-left: 55px;
+    margin-right: 200px;
 }
 .nav-itemget{
     background-color: rgb(255, 170, 60);
@@ -45,5 +45,49 @@
     margin-top: 5%;
 }
 .sec4{
-    background-color: rgb(227, 231, 235);
+    background-color:rgb(252, 245, 238);
+    
+}
+.box{
+    height: 420px;
+    width: 420px;
+    font-size: 40px;
+    box-shadow: 5px 5px #888888;
+}
+.imgbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 100px;
+    margin-top: 50px;
+}
+h3::after{
+    content: '' ;
+    background-color: rgb(241, 207, 14);
+    height: 3px;
+    width: 30%;
+    position: absolute;
+    bottom: -50%;
+    left: 35%;
+    
+}
+h3{
+    position: relative;
+    width: max-content;
+    margin-left: 40%;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    font-size: 40px;
+    box-shadow: 5px 8px #888888;
+}
+.pbox{
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
 }
