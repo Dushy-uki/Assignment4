@@ -15,8 +15,8 @@
         <!--section1-->
         <div class="navbar navbar-expand-  navbar-light">
             <div class="container-fluid" >
-                <ul class="navbar-nav justify-content-end flex-row d-flex" style="width: 100%; gap: 10px;>
-                    <h2 class="navbar-brand" style="align-self: flex-start; margin-right: 0%;">Web Amigo</h2>
+                <ul class="navbar-nav justify-content-end flex-row d-flex" style="width: 100%; gap: 10px;">
+                    <h2 class="navbar-brand" style="align-self: flex-start; margin-right: 45%;">Web Amigo</h2>
                     <li class="nav-item1">
                       <a class="nav-link text-danger" href="#">Home</a>
                     </li>
@@ -91,13 +91,10 @@
           <div class="sec4" id="port">
             <p class="text-secondary" style="text-align: center; margin-top: 40px;">Portfolio</p>
             <h3 style="margin-left: 40%;" class="text-danger">Check out our beautifull portifolio</h3>
-            <div class="d-flex justify-content-center" >
-              <ul class="nav nav-pills " role="tablist">
-                <li><p class="text-danger mt-4">All</p></li>
-                <li><p class="ml-4 mt-4">Add</p></li>
-                <li><p class="ml-4 mt-4">Card</p></li>
-                <li><p class="ml-4 mt-4">Web</p></li>        
-              </ul>
+            <div class="d-flex justify-content-center mt-4" id="button" >
+              <button class="btn1">All</button>
+              <button class="btn1">Out side</button>
+              <button class="btn1">In side</button>
             </div>
           
      <div class="imgbox" id="product">
@@ -176,5 +173,18 @@
         <footer style="margin-left: 10%;"><i class="material-icons" style="margin-top: 5px;">&#xe90c;</i>Copy right@ <b>2022</b>All right <b>Reserved</b><span style="margin-left: 60%;">Decigned by:uki</span><img src="./Assets/image/up-arrow.png" style="width: 25px; height: 25px; margin-left: 10%;"></footer>
       </div>
       
+
+      <script>
+        var header = document.getElementById("button");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+        </script>
+
       </body>
 </html>
