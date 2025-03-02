@@ -13,25 +13,21 @@
    
     <body>
         <!--section1-->
-        <div class="navbar navbar-expand-sm  navbar-light">
+        <div class="navbar navbar-expand-  navbar-light">
             <div class="container-fluid" >
-                <a class="navbar-brand" href="#">Web Amigo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                  <ul class="navbar-nav">
+                <ul class="navbar-nav justify-content-end flex-row d-flex" style="width: 100%; gap: 10px;>
+                    <h2 class="navbar-brand" style="align-self: flex-start; margin-right: 0%;">Web Amigo</h2>
                     <li class="nav-item1">
                       <a class="nav-link text-danger" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./product.html">About Us</a>
+                      <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="./product.html">Product</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Portform</a>
+                        <a class="nav-link" href="#port">Portifolio</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
@@ -40,7 +36,7 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#team">Team</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -67,7 +63,7 @@
 
 
           <!--section3-->
-          <div class="sec3">
+          <div class="sec3" id="about">
             <div class="work">
               <img src="./Assets/image/lamp2.png" class="img-rounded" width="400" height="500">
             </div>
@@ -92,9 +88,9 @@
 
 
           <!--section4-->
-          <div class="sec4">
+          <div class="sec4" id="port">
             <p class="text-secondary" style="text-align: center; margin-top: 40px;">Portfolio</p>
-            <h3 style="text-align: center;" class="text-danger">Check out our beautifull portifolio</h3>
+            <h3 style="margin-left: 40%;" class="text-danger">Check out our beautifull portifolio</h3>
             <div class="d-flex justify-content-center" >
               <ul class="nav nav-pills " role="tablist">
                 <li><p class="text-danger mt-4">All</p></li>
@@ -109,12 +105,12 @@
        <div><img src="./Assets/image/light2.jpg" class="box"></div>
        <div><img src="./Assets/image/light3.jpg" class="box"></div>
        <div><img src="./Assets/image/light4.jpg" class="box"></div>
-       <div><img src="./Assets/image/light5.jpg" class="box"></div>
+       <div><a href="./product.html#pic"><img src="./Assets/image/light5.jpg" class="box"></a></div>
        <div><img src="./Assets/image/light6.jpg" class="box"></div>
      </div>
     </div>
           <!--sectoin5-->
-      <div>
+      <div id="team">
         <p class="text-secondary" style="text-align: center; margin-top: 80px;">Team</p>
         <h3 style="text-align: center;">Our team is always here to help</h3>
       </div>
@@ -128,8 +124,8 @@
       <!--scetion6-->
       <div style="margin-top: 40px; background-color: rgb(253, 242, 226); padding: 50px; margin-top: 5%;">
         <p class="text-secondary" style="text-align: center;">Clients</p>
-        <h3 style="text-align: center;">They trusted us</h3>
-        <div class="d-flex" style="margin-left: 30%;">
+        <h3 style="margin-left: 45%;">They trusted us</h3>
+        <div class="d-flex" style="margin-left: 33%;">
           <img src="./Assets/image/logo1.png" style="width: 120px; height: 120px;">
           <img src="./Assets/image/logo2.png" style="width: 120px; height: 120px;">
           <img src="./Assets/image/logo3.png" style="width: 120px; height: 120px;">
